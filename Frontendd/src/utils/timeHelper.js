@@ -25,5 +25,5 @@ export function getRelativeTime(dateInput) {
   if (months < 12) return `${months} month${months === 1 ? '' : 's'} ago`;
 
   const years = Math.floor(days / 365);
-  return `${years} year${years === 1 ? '' : 's'} ago`;
+  return `${years} year${years === 1 ? '' : 's'} ago`; // NEW CHANGE
 }
