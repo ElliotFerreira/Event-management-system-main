@@ -1,6 +1,8 @@
 export function getRelativeTime(dateInput) {
   if (!dateInput) return '';
 
+
+  // New date input
   const date = new Date(dateInput);
   if (isNaN(date.getTime())) return '';
 
